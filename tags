@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArmijoBacktrack	common/minFunc_2012/minFunc/ArmijoBacktrack.m	/^function [t,x_new,f_new,g_new,funEvals,H] = ArmijoBacktrack(...$/;"	f
+LogisticHv	common/minFunc_2012/logisticExample/LogisticDiagPrecond.m	/^function [m] = LogisticHv(v,w,X,y)$/;"	f
+LogisticHv	common/minFunc_2012/logisticExample/LogisticHv.m	/^function [Hv] = LogisticHv(v,w,X,y)$/;"	f
+LogisticLoss	common/minFunc_2012/logisticExample/LogisticLoss.m	/^function [nll,g,H,T] = LogisticLoss(w,X,y)$/;"	f
+WolfeLineSearch	common/minFunc_2012/minFunc/WolfeLineSearch.m	/^function [t,f_new,g_new,funEvals,H] = WolfeLineSearch(...$/;"	f
+absolute	common/minFunc_2012/minFunc/mex/mcholC.c	/^double absolute(double x)$/;"	f
+autoHv	common/minFunc_2012/autoDif/autoHv.m	/^function [Hv] = autoHv(v,x,g,useComplex,funObj,varargin)$/;"	f
+cg	common/minFunc_2012/minFunc/conjGrad.m	/^function [x,k,res,negCurv] = cg(A,b,optTol,maxIter,verbose,precFunc,precArgs,matrixVectFunc,matrixVectArgs)$/;"	f
+cnnConvolve	cnnConvolve.m	/^function convolvedFeatures = cnnConvolve(filterDim, numFilters, images, W, b)$/;"	f
+cnnCost	cnnCost.m	/^function [cost, grad, preds] = cnnCost(theta,images,labels,numClasses,...$/;"	f
+cnnInitParams	cnnInitParams.m	/^function theta = cnnInitParams(imageDim,filterDim,numFilters,...$/;"	f
+cnnParamsToStack	cnnParamsToStack.m	/^function [Wc, Wd, bc, bd] = cnnParamsToStack(theta,imageDim,filterDim,...$/;"	f
+cnnPool	cnnPool.m	/^function pooledFeatures = cnnPool(poolDim, convolvedFeatures)$/;"	f
+computeNumericalGradient	computeNumericalGradient.m	/^function numgrad = computeNumericalGradient(J, theta)$/;"	f
+derivativeCheck	common/minFunc_2012/autoDif/derivativeCheck.m	/^function diff = derivativeCheck(funObj,x,order,type,varargin)$/;"	f
+derivativeCheck	common/minFunc_2012/autoDif/fastDerivativeCheck.m	/^function diff = derivativeCheck(funObj,x,order,type,varargin)/;"	f
+display_network	common/display_network.m	/^function [h, array] = display_network(A, opt_normalize, opt_graycolor, cols, opt_colmajor)$/;"	f
+funObj	common/minFunc_2012/autoDif/autoGrad.m	/^function [f,g] = autoGrad(x,type,funObj,varargin)/;"	f
+funObj	common/minFunc_2012/autoDif/autoHess.m	/^function [f,g,H] = autoHess(x,type,funObj,varargin)/;"	f
+funObj	common/minFunc_2012/autoDif/autoTensor.m	/^function [f,g,H,T] = autoTensor(x,type,funObj,varargin)$/;"	f
+getOpt	common/minFunc_2012/minFunc/minFunc_processInputOptions.m	/^function [v] = getOpt(options,opt,default)$/;"	f
+isLegal	common/minFunc_2012/minFunc/isLegal.m	/^function [legal] = isLegal(v)$/;"	f
+lbfgs	common/minFunc_2012/minFunc/lbfgs.m	/^function [d] = lbfgs(g,s,y,Hdiag)$/;"	f
+lbfgsAdd	common/minFunc_2012/minFunc/lbfgsAdd.m	/^function [S,Y,YS,lbfgs_start,lbfgs_end,Hdiag,skipped] = lbfgsAdd(y,s,S,Y,YS,lbfgs_start,lbfgs_end,Hdiag,useMex)$/;"	f
+lbfgsProd	common/minFunc_2012/minFunc/lbfgsProd.m	/^function [d] = lbfgsProd(g,S,Y,YS,lbfgs_start,lbfgs_end,Hdiag)$/;"	f
+lbfgsUpdate	common/minFunc_2012/minFunc/dampedUpdate.m	/^function [old_dirs,old_stps,Hdiag,Bcompact] = lbfgsUpdate(y,s,corrections,debug,old_dirs,old_stps,Hdiag)$/;"	f
+lbfgsUpdate	common/minFunc_2012/minFunc/lbfgsUpdate.m	/^function [old_dirs,old_stps,Hdiag] = lbfgsUpdate(y,s,corrections,debug,old_dirs,old_stps,Hdiag)$/;"	f
+loadMNISTImages	common/loadMNISTImages.m	/^function images = loadMNISTImages(filename)$/;"	f
+loadMNISTLabels	common/loadMNISTLabels.m	/^function labels = loadMNISTLabels(filename)$/;"	f
+mchol	common/minFunc_2012/minFunc/mchol.m	/^function [l,d,perm] = mchol(A,mu)$/;"	f
+mcholinc	common/minFunc_2012/minFunc/mcholinc.m	/^function [R,tau] = mcholinc(H,verbose)$/;"	f
+mexFunction	common/minFunc_2012/minFunc/mex/lbfgsAddC.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f
+mexFunction	common/minFunc_2012/minFunc/mex/lbfgsC.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f
+mexFunction	common/minFunc_2012/minFunc/mex/lbfgsProdC.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f
+mexFunction	common/minFunc_2012/minFunc/mex/mcholC.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f
+minFunc	common/minFunc_2012/minFunc/minFunc.m	/^function [x,f,exitflag,output] = minFunc(funObj,x0,options,varargin)$/;"	f
+minFuncSGD	minFuncSGD.m	/^function [opttheta] = minFuncSGD(funObj,theta,data,labels,...$/;"	f
+mixedExtrap	common/minFunc_2012/minFunc/WolfeLineSearch.m	/^function [t] = mixedExtrap(x0,f0,g0,x1,f1,g1,minStep,maxStep,debug,doPlot);$/;"	f
+mixedInterp	common/minFunc_2012/minFunc/WolfeLineSearch.m	/^function [t] = mixedInterp(bracket,bracketFval,bracketGval,d,Tpos,oldLOval,oldLOFval,oldLOGval,debug,doPlot);$/;"	f
+mylogsumexp	common/minFunc_2012/logisticExample/mylogsumexp.m	/^function lse = mylogsumexp(b)$/;"	f
+mymax	common/minFunc_2012/minFunc/mex/mcholC.c	/^double mymax(double x, double y)$/;"	f
+permute	common/minFunc_2012/minFunc/mex/mcholC.c	/^void permute(double *x, int p, int q)$/;"	f
+permuteCols	common/minFunc_2012/minFunc/mex/mcholC.c	/^void permuteCols(double *x, int p, int q,int n)$/;"	f
+permuteInt	common/minFunc_2012/minFunc/mex/mcholC.c	/^void permuteInt(int *x, int p, int q)$/;"	f
+permuteRows	common/minFunc_2012/minFunc/mex/mcholC.c	/^void permuteRows(double *x, int p, int q,int n)$/;"	f
+polyinterp	common/minFunc_2012/minFunc/polyinterp.m	/^function [minPos,fmin] = polyinterp(points,doPlot,xminBound,xmaxBound)$/;"	f
+precondDiag	common/minFunc_2012/minFunc/precondDiag.m	/^function [y] = precondDiag(r,D)$/;"	f
+precondUpper	common/minFunc_2012/minFunc/precondTriu.m	/^function [y] = precondUpper(r,U)$/;"	f
+precondUpper	common/minFunc_2012/minFunc/precondTriuDiag.m	/^function [y] = precondUpper(r,U,D)$/;"	f
+rosenbrock	common/minFunc_2012/rosenbrock.m	/^function fxy = rosenbrock(x,y)$/;"	f
+rot180	cnnCost.m	/^function X = rot180(X)$/;"	f
+samplePatches	common/samplePatches.m	/^function patches = samplePatches(rawImages, patchSize, numPatches)$/;"	f
+sigmoid	cnnConvolve.m	/^function sigm = sigmoid(x)$/;"	f
+taylorModel	common/minFunc_2012/minFunc/taylorModel.m	/^function [f,g,H] = taylorModel(d,f,g,H,T)$/;"	f
+toUpper	common/minFunc_2012/minFunc/minFunc_processInputOptions.m	/^function [o] = toUpper(o)$/;"	f
